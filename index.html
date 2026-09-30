@@ -1,0 +1,204 @@
+doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A short introduction to Arun, a product-minded developer."
+    />
+    <title>About Me | Arun</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fon<!ts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Arun home">AR<span>.</span></a>
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button
+          class="icon-button"
+          id="theme-toggle"
+          type="button"
+          aria-label="Switch to dark mode"
+          title="Toggle color theme"
+        >
+          ◐
+        </button>
+        <button
+          class="menu-button"
+          id="menu-toggle"
+          type="button"
+          aria-label="Open navigation"
+          aria-expanded="false"
+          aria-controls="site-nav"
+        >
+          Menu
+        </button>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero section-shell" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            <span class="status-dot"></span> A quick introduction
+          </p>
+          <h1 id="hero-title">About <em>Me</em></h1>
+          <p class="hero-intro">
+            I'm Arun, a curious developer who enjoys turning ideas into clear,
+            useful experiences with a little character.
+          </p>
+          <ul class="interest-list" aria-label="Interests and skills">
+            <li>Frontend development</li>
+            <li>Creative problem solving</li>
+            <li>Learning new things</li>
+          </ul>
+          <div class="hero-actions">
+            <button
+              class="button button-primary random-color-button"
+              id="random-color"
+              type="button"
+            >
+              Surprise me <span aria-hidden="true">✦</span>
+            </button>
+            <a class="text-link" href="#contact"
+              >Let's talk <span aria-hidden="true">→</span></a
+            >
+          </div>
+        </div>
+        <div class="hero-mark" aria-hidden="true">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="hero-symbol">✳</div>
+          <p>Curiosity<br />over certainty</p>
+        </div>
+      </section>
+
+      <section class="ticker" aria-label="Skills">
+        <div class="ticker-track">
+          <span>Product thinking</span><b>✦</b><span>Frontend craft</span
+          ><b>✦</b><span>Visual systems</span><b>✦</b
+          ><span>Kind collaboration</span><b>✦</b> <span>Product thinking</span
+          ><b>✦</b><span>Frontend craft</span><b>✦</b><span>Visual systems</span
+          ><b>✦</b><span>Kind collaboration</span><b>✦</b>
+        </div>
+      </section>
+
+      <section
+        class="work section-shell"
+        id="work"
+        aria-labelledby="work-title"
+      >
+        <div class="section-heading">
+          <p class="eyebrow">01 / Selected work</p>
+          <h2 id="work-title">A few things I've<br /><em>been shaping.</em></h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card project-card-large">
+            <div class="project-visual visual-coral">
+              <span class="visual-label">01</span>
+              <div class="window-ui">
+                <i></i><i></i><i></i><strong>quietly<br />better</strong>
+              </div>
+            </div>
+            <div class="project-meta">
+              <div>
+                <h3>Quietly Better</h3>
+                <p>
+                  A softer productivity system for people who think in seasons.
+                </p>
+              </div>
+              <span class="project-year">2025</span>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual visual-blue">
+              <span class="visual-label">02</span>
+              <div class="signal-lines"><i></i><i></i><i></i><i></i></div>
+              <strong>signal / noise</strong>
+            </div>
+            <div class="project-meta">
+              <div>
+                <h3>Signal / Noise</h3>
+                <p>Making complex research easier to find and understand.</p>
+              </div>
+              <span class="project-year">2024</span>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual visual-yellow">
+              <span class="visual-label">03</span>
+              <div class="sun-shape">+</div>
+              <strong>good<br />company</strong>
+            </div>
+            <div class="project-meta">
+              <div>
+                <h3>Good Company</h3>
+                <p>A community space built around showing up for each other.</p>
+              </div>
+              <span class="project-year">2024</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section
+        class="about section-shell"
+        id="about"
+        aria-labelledby="about-title"
+      >
+        <div class="section-heading">
+          <p class="eyebrow">02 / A little about me</p>
+        </div>
+        <div class="about-content">
+          <h2 id="about-title">
+            The best work lives somewhere between <em>precision</em> and play.
+          </h2>
+          <div class="about-copy">
+            <p>
+              I care about the details that make an interface feel obvious, the
+              systems that help teams move with confidence, and the small
+              moments that make someone smile.
+            </p>
+            <p>
+              When I'm away from a screen, you'll usually find me collecting
+              good questions, walking too far, or making an overcomplicated cup
+              of tea.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="contact section-shell"
+        id="contact"
+        aria-labelledby="contact-title"
+      >
+        <p class="eyebrow">03 / Start a conversation</p>
+        <h2 id="contact-title">
+          Have a good idea?<br /><em>Let's make it real.</em>
+        </h2>
+        <a class="contact-email" href="mailto:hello@arun.dev"
+          >hello@arun.dev <span aria-hidden="true">↗</span></a
+        >
+      </section>
+    </main>
+
+    <footer class="site-footer section-shell">
+      <span>© <span id="current-year"></span> Arun</span
+      ><span>Built with intention &amp; a bit of caffeine.</span
+      ><a href="#top">Back to top ↑</a>
+    </footer>
+  </body>
+</html>
