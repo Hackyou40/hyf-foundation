@@ -28,7 +28,7 @@ addActivity("23/7-18", "Youtube", 30);
 
 console.log(activities);
 
-let usageLimit = 500;
+const usageLimit = 500;
 
 function showStatus(activities) {
   if (activities.length === 0) {
